@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sn.ui.home.HomeFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_scanner"
+        android:name="com.example.sn.ui.scanner.ScannerFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_porters"
+        android:name="com.example.sn.ui.porters.PortersFragment"
+        android:label="Porters"
+        tools:layout="@layout/fragment_porters" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.sn.ui.schedule.ScheduleFragment"
+        android:label="Schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.sn.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_voice"
+        android:name="com.example.sn.ui.voicerecognition.VoiceRecognitionFragment"
+        android:label="VoiceRecognition"
+        tools:layout="@layout/fragment_voice_recognition" />
+
+
+
+
+
+
+
+</navigation>

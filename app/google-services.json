@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384496851847",
+    "project_id": "stationnavigators",
+    "storage_bucket": "stationnavigators.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384496851847:android:3eaa507ea5558db6ea1122",
+        "android_client_info": {
+          "package_name": "com.example.sn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlT6dAFG0as7E5ws-wNhncW1aycpHHycs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

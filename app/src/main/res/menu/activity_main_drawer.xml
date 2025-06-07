@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@id/nav_home"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_code_scanner_auto_focus_off"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/menu_schedule" />
+
+        <item
+            android:id="@+id/nav_porters"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/porters" />
+
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/voicerecognition" />
+
+    </group>
+</menu>
